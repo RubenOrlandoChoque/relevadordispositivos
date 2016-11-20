@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Control</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_nuevo_ruteo">Nuevo Relevamiento</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_principal">Menu Principal</string>
+    <string name="title_activity_login">Relevamiento Notebook</string>
+    <string name="title_opcion_nuevo_ruteo">Nuevo Relevamiento</string>
+    <string name="title_opcion_novedad">Novedad</string>
+    <string name="title_opcion_sincronizacion">Sincronización</string>
+    <string name="title_cambiar_sucursal">Cambiar Sucursal</string>
+    <string name="title_opcion_configuracion">Relevar</string>
+    <string name="title_activity_configuracion">Configuracion</string>
+    <string name="title_activity_sincronizacion">SincronizacionActivity</string>
+    <string name="title_activity_novedad">NovedadActivity</string>
+    <string name="title_activity_ruteo">RuteoActivity</string>
+    <string name="title_activity_alta_productos">AltaProductos</string>
+    <string name="dispositivo_no_encontrado">No existe el dispositivo...Buscar</string>
+
+</resources>

@@ -1,0 +1,353 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activity.NuevoDispositivo">
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/searchingGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/result_xqr_code"
+        android:text="Buscando GPS ..."
+        />
+
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:id="@+id/svNovedades"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/llBotoneraNovedades"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/border_linear_layout"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Número"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txtNumeroDispositivo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="false"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CUIL"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txtCUIL"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="false"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Apellido y Nombre"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txtApellido"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="false"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Sección"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txtSeccion"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="true"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Turno Origen"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txtTurnoOrigen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="true"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Turno ACtual"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txtTrunoActual"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="true"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Contrato Firmado"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txtContratoFirmado"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="true"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Marca"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txtMarca"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="true"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="HID"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txthdi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="true"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Número de Serie"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txtNumeroDeSerie"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="true"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="DNI"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txtdni"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="true"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Esatdo"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txtEstado"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="true"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Migración"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txtMigracion"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="true"
+                android:text="" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Reclamo"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txtReclamo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="true"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Denuncia / Robo"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txtDenunciaRobo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="true"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Reasignado A"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txtReasignadoA"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="true"
+                android:text="" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Fue Reasignado"
+                android:textColor="@android:color/black"
+                android:textSize="14dip" />
+
+            <EditText
+                android:id="@+id/txtFueReasignado"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:editable="true"
+                android:text="" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/llBotoneraNovedades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnGuardarNovedad"
+            style="@style/btnStyleGenoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="btnGuardarNovedadOnClickListener"
+            android:text="GUARDAR"
+            android:textSize="15dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblSpace"
+            android:layout_width="2px"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnCancelarNovedad"
+            style="@style/btnStyleOrange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="btnCancelarNovedadOnClickListener"
+
+            android:text="CANCELAR"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

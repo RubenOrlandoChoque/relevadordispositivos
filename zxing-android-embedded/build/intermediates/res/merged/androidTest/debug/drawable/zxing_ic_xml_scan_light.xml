@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/light_on" />
+    <item android:state_focused="true" android:drawable="@drawable/light_on" />
+    <item android:state_pressed="true" android:drawable="@drawable/light_on" />
+    <item android:drawable="@drawable/light_off" />
+</selector><!-- From: file:/C:/Users/RUBEN/AndroidStudioProjects/RelevadorDispositivos/zxing-android-embedded/res-orig/drawable/zxing_ic_xml_scan_light.xml --><!-- From: file:/C:/Users/RUBEN/AndroidStudioProjects/RelevadorDispositivos/zxing-android-embedded/build/intermediates/bundles/debug/res/drawable/zxing_ic_xml_scan_light.xml -->

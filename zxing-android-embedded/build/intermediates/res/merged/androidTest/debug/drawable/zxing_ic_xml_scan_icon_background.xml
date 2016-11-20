@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/scan_blue_background" android:state_selected="true" />
+    <item android:drawable="@drawable/scan_blue_background" android:state_focused="true" />
+    <item android:drawable="@drawable/scan_blue_background" android:state_pressed="true" />
+    <item android:drawable="@drawable/zxing_transparent" />
+</selector><!-- From: file:/C:/Users/RUBEN/AndroidStudioProjects/RelevadorDispositivos/zxing-android-embedded/res-orig/drawable/zxing_ic_xml_scan_icon_background.xml --><!-- From: file:/C:/Users/RUBEN/AndroidStudioProjects/RelevadorDispositivos/zxing-android-embedded/build/intermediates/bundles/debug/res/drawable/zxing_ic_xml_scan_icon_background.xml -->
